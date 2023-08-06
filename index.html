@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='styles.css' type="text/css" />
+  <title>HTML & CSS Editor</title>
+</head>
+
+<body>
+  <div class="editor-container">
+    <div class="top-half">
+      <div class="html-editor">
+        <h2>Edit HTML</h2>
+        <textarea id="htmlInput" rows="10" cols="50" placeholder="Enter your HTML here"></textarea>
+      </div>
+      <div class="css-editor">
+        <h2>Edit CSS</h2>
+        <textarea id="cssInput" rows="10" cols="50" placeholder="Enter your CSS here"></textarea>
+      </div>
+    </div>
+    <div class="bottom-half">
+      <h2>Preview</h2>
+      <iframe id="previewFrame"></iframe>
+    </div>
+  </div>
+  <script src="script.js" defer type="text/javascript"></script>
+</body>
+
+</html>
